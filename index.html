@@ -139,17 +139,17 @@
     `
   });
 
-  Vue.component('Lucifer',{
-    template:`<span>Lucifer</span>`
+  Vue.component('A',{
+    template:`<span>A</span>`
   });
-  Vue.component('Uriel',{
-    template:`<span>Uriel</span>`
+  Vue.component('B',{
+    template:`<span>B</span>`
   });
 
   var main = new Vue({
     el:"#main",
     data:{
-      title:"Charley's Notes",
+      title:"Charley's Vue",
       CardTitle:'About Me',
       introItem:['Charley','24','Taipei','Front-end Developer'],
       seen:false,
@@ -163,7 +163,7 @@
       email:'',
       call:false,
       searchResult:'',
-      component:'Lucifer'
+      component:'A'
     },
     computed:{
       totalScore:{
